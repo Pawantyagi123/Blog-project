@@ -1,0 +1,24 @@
+{
+    "data": [
+       {
+        "Hero":[
+            {
+                "id": 1,
+                "mainImage.url":"./public/bugatti_one.jpg",
+                "category": "car",
+                "title": "The racing car",
+                "authorAvatar": "./public/blog.jpg",
+                "authorName": "Champion"
+            },
+            {
+                "id": 2,
+                "mainImage.url": "./public/bugatti_two.jpg",
+                "category": "car",
+                "title": "The racing car",
+                "authorAvatar": "./public/blog.jpg",
+                "authorName": "Champion"
+            }
+        ]
+       }
+    ]
+}
