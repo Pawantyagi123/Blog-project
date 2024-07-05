@@ -29,7 +29,7 @@ export default function Chart () {
   useEffect(() => {
     const fetchMyBlogs = async () => {
       const { data } = await axios.get(
-        "http://localhost:4000/blog/Myblogs",
+        "https://blog-project-swgo.vercel.app//blog/Myblogs",
         { withCredentials: true }
       );
       setMyBlogs(data.blogs);
