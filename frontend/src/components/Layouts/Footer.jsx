@@ -6,7 +6,7 @@ import { BsInstagram,BsFacebook,BsTwitter } from "react-icons/bs";
 import { FaGit } from "react-icons/fa";
 
 export default function Footer() {
-  const isDashboard = useLocation("http://localhost:5173/dashboard");
+  const isDashboard = useLocation("https://blog-project-nine-sepia.vercel.app/dashboard");
 const {mode} = useContext(Context)
   return (
 
