@@ -13,7 +13,7 @@ dotenv.config({path: "./config/.env"});
 
 
 app.use(cors({
-    origin: [process.env.FRONTEND_URL],
+    origin: ["https://blog-project-nine-sepia.vercel.app/"],
     methods: ["GET", "POST", "PUT","DELETE","HEAD"],
     credentials: true
 })
