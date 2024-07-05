@@ -26,7 +26,7 @@ export default function App() {
     const fetchUser = async () => {
       try {
         const { data } = await axios.get(
-          "http://localhost:4000/user/myprofile",
+          "https://blog-project-swgo.vercel.app/user/myprofile",
           {
             withCredentials: true,
           }
@@ -42,7 +42,7 @@ export default function App() {
     const fetchBlogs = async () => {
       try {
         const { data } = await axios.get(
-          "http://localhost:4000/blog/all",
+          "https://blog-project-swgo.vercel.app/blog/all",
           { withCredentials: true }
         );
         setBlogs(data.allBlogs);
