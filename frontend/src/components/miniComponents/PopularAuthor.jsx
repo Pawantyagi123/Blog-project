@@ -6,7 +6,7 @@ export default function PopularAuthor() {
   const [authors, setAuthors] = useState([]);
   useEffect(()=>{
 const fetchAuthors = async()=>{
-  const {data} = await axios.get("http://localhost:4000/user/authors",
+  const {data} = await axios.get("https://blog-project-swgo.vercel.app/user/authors",
   {withCredentials: true}
   );
   setAuthors(data.authors);
