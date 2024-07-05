@@ -17,7 +17,7 @@ export default function Sidebar({ setComponent }) {
   const handlelogout = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.get("http://localhost:4000/user/logout", {
+      const { data } = await axios.get("https://blog-project-swgo.vercel.app/user/logout", {
         withCredentials: true,
       });
       setIsAuthenticated(false);
