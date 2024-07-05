@@ -29,7 +29,7 @@ const UpdateBlog = () => {
     const fetchBlog = async () => {
       try {
         const { data } = await axios.get(
-          `http://localhost:4000/blog/singleblog/${id}`,
+          `https://blog-project-swgo.vercel.app/blog/singleblog/${id}`,
           { withCredentials: true }
         );
         setTitle(data.blog.title);
