@@ -39,7 +39,7 @@ const handleRegister = async(e)=>{
   formData.append("avatar", avatar);
 
   try{
-    const {data} = await axios.post("http://localhost:4000/user/register", formData, {withCredentials: true, headers: {"Content-Type": "multipart/form-data"}}
+    const {data} = await axios.post("https://blog-project-swgo.vercel.app/user/register", formData, {withCredentials: true, headers: {"Content-Type": "multipart/form-data"}}
     )
     setName("");
     setEmail("");
