@@ -19,7 +19,7 @@ const MyBlogs = () => {
 
   const deleteBlogHandler = async (id) => {
     await axios
-      .delete(`http://localhost:4000/blog/delete/${id}`, {
+      .delete(`https://blog-project-swgo.vercel.app/blog/delete/${id}`, {
         withCredentials: true,
       })
       .then((res) => {
