@@ -99,7 +99,7 @@ export default function CreateBlog() {
 
     try {
       const { data } = await axios.post(
-        "http://localhost:4000/blog/postblog",
+        "https://blog-project-swgo.vercel.app/blog/postblog",
         formData,
         {
           withCredentials: true,
