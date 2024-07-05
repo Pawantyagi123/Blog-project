@@ -11,7 +11,7 @@ const [blog, setBlog] = useState();
 useEffect(()=>{
   const getSingleBlog = async()=>{
     try{
-      const {data} = await axios.get(`http://localhost:4000/blog/singleblog/${id}`, {withCredentials: true}
+      const {data} = await axios.get(`https://blog-project-swgo.vercel.app/blog/singleblog/${id}`, {withCredentials: true}
       );
       setBlog(data.blog);
     }catch(error){
