@@ -17,7 +17,7 @@ export default function Navbar() {
 
   const isDashboard = useLocation("https://blog-project-nine-sepia.vercel.app/dashboard");
 
-  const {mode, setMode,isAuthenticated,user,setIsAuthenticated } = useContext(Context) ;
+  const {mode, setMode,isAuthenticated,user,setIsAuthenticated,setUser } = useContext(Context) ;
 
   const navigateTo = useNavigate();
 
